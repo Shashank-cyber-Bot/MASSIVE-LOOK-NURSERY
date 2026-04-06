@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Plant Kingdom Nursery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0b2e13;
+      color: white;
+    }
+
+    header {
+      background: #14532d;
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+
+    .hero {
+      height: 90vh;
+      background: url('https://images.unsplash.com/photo-1501004318641-b39e6451bec6') no-repeat center/cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 50px;
+      background: rgba(0,0,0,0.5);
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .section h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .card {
+      background: #166534;
+      padding: 20px;
+      width: 250px;
+      border-radius: 10px;
+    }
+
+    footer {
+      background: #022c22;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  🌿 PLANT KINGDOM NURSERY
+</header>
+
+<div class="hero">
+  <h1>Build Your Green Empire 🌱</h1>
+</div>
+
+<div class="section">
+  <h2>About Us</h2>
+  <p>
+    Plant Kingdom Nursery brings you a wide variety of healthy plants, trees, and garden essentials to create your perfect green environment.
+  </p>
+</div>
+
+<div class="section">
+  <h2>Our Plants</h2>
+  <div class="cards">
+    <div class="card">🌿 Indoor Plants</div>
+    <div class="card">🌳 Outdoor Plants</div>
+    <div class="card">🌸 Flowering Plants</div>
+    <div class="card">🌱 Garden Supplies</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Contact Us</h2>
+  <p>Email: yournursery@email.com</p>
+  <p>Phone: +91 98765 43210</p>
+</div>
+
+<footer>
+  © 2026 Plant Kingdom Nursery | Grow Big. Grow Green.
+</footer>
+
+</body>
+</html>
